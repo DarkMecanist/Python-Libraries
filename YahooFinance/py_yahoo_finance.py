@@ -89,6 +89,30 @@ class YahooFinance:
 
         return research_data["finance"]["result"]
 
+    def get_summary(self, symbol):
+        """
+        :param symbol: [String]
+        :return: [Dictionary]
+        """
+
+        # Check symbol not empty
+        if symbol == "":
+            raise Exception("No symbol provided.")
+
+        url = f"{self.SERVER}/{self.VERSION}/finance/quoteSummary/{symbol}"
+        querystring = {"modules":
+                        "summaryDetail,assetProfile,fundProfile,financialData,defaultKeyStatistics,calendarEvents,incomeStatementHistory,"
+                        "incomeStatementHistoryQuarterly,cashflowStatementHistory,balanceSheetHistory,earnings,earningsHistory,insiderHolders,"
+                        "cashflowStatementHistory,cashflowStatementHistoryQuarterly,insiderTransactions,secFilings,indexTrend,sectorTrend,earningsTrend,"
+                        "netSharePurchaseActivity,upgradeDowngradeHistory,institutionOwnership,recommendationTrend,balanceSheetHistory,balanceSheetHistoryQuarterly,"
+                        "fundOwnership,majorDirectHolders,majorHoldersBreakdown,price,quoteType,esgScores"}
+        response = requests.request("GET", url, headers=self.headers, params=querystring)
+        summary = json.loads(response.text)
+
+        print(f"Successfully returned Summary for {symbol}")
+
+        return summary["quoteSummary"]["result"][0]
+
 
 
 
