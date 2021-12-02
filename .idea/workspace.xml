@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e06d488e-308e-42e8-8fa1-f063c03bca56" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Excel/Tests/test_py_excel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Excel/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Excel/py_excel.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YahooFinance/Tests/test_py_yahoo_finance.py" beforeDir="false" afterPath="$PROJECT_DIR$/YahooFinance/Tests/test_py_yahoo_finance.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YahooFinance/py_yahoo_finance.py" beforeDir="false" afterPath="$PROJECT_DIR$/YahooFinance/py_yahoo_finance.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,12 +20,14 @@
     <SUITE FILE_PATH="coverage/LIBRARIES$Unittests_for_Excel_Tests_test_py_excel_TestWriteExcel.coverage" NAME="Unittests for Excel.Tests.test_py_excel.TestWriteExcel Coverage Results" MODIFIED="1637434348619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LIBRARIES$py_strings.coverage" NAME="py_strings Coverage Results" MODIFIED="1635005978553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Strings Library" />
     <SUITE FILE_PATH="coverage/LIBRARIES$Unittests_in_test_py_strings_py.coverage" NAME="Unittests in test_py_strings.py Coverage Results" MODIFIED="1635006909302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LIBRARIES$Unittests_for_YahooFinance_Tests_test_py_yahoo_finance_TestGetSummary.coverage" NAME="Unittests for YahooFinance.Tests.test_py_yahoo_finance.TestGetSummary Coverage Results" MODIFIED="1638469375571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LIBRARIES$Unittests_for_YahooFinance_Tests_test_py_yahoo_finance_TestGetSummary_test_case_1.coverage" NAME="Unittests for YahooFinance.Tests.test_py_yahoo_finance.TestGetSummary.test_case_1 Coverage Results" MODIFIED="1638467917159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LIBRARIES$test.coverage" NAME="test Coverage Results" MODIFIED="1636910138454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
     <SUITE FILE_PATH="coverage/LIBRARIES$Unittests_for_Strings_Tests_test_py_strings_TestsIsValidEmail_test_case_1.coverage" NAME="Unittests for Strings.Tests.test_py_strings.TestsIsValidEmail.test_case_1 Coverage Results" MODIFIED="1636905299483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LIBRARIES$py_gmail.coverage" NAME="py_gmail Coverage Results" MODIFIED="1635007103511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Strings Library" />
     <SUITE FILE_PATH="coverage/LIBRARIES$Unittests_for_Strings_Tests_test_py_strings_TestsIsValidEmail.coverage" NAME="Unittests for Strings.Tests.test_py_strings.TestsIsValidEmail Coverage Results" MODIFIED="1636905332294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LIBRARIES$Unittests_in_test_py_gmail_py.coverage" NAME="Unittests in test_py_gmail.py Coverage Results" MODIFIED="1635011796412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/LIBRARIES$Unittests_in_test_py_yahoo_finance_py.coverage" NAME="Unittests in test_py_yahoo_finance.py Coverage Results" MODIFIED="1637430473374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LIBRARIES$Unittests_in_test_py_yahoo_finance_py.coverage" NAME="Unittests in test_py_yahoo_finance.py Coverage Results" MODIFIED="1638469420673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LIBRARIES$Unittests_for_YahooFinance_Tests_test_py_yahoo_finance_TestGetData.coverage" NAME="Unittests for YahooFinance.Tests.test_py_yahoo_finance.TestGetData Coverage Results" MODIFIED="1636913602163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LIBRARIES$Unittests_for_YahooFinance_Tests_test_py_yahoo_finance_TestGetCompetitors_test_case_1.coverage" NAME="Unittests for YahooFinance.Tests.test_py_yahoo_finance.TestGetCompetitors.test_case_1 Coverage Results" MODIFIED="1636905931580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
@@ -35,39 +35,42 @@
     <session id="2111722383">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.7" value="3" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="37" />
+          <entry key="py" value="38" />
+          <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="37" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="31" />
           <entry key="dummy" value="1" />
-          <entry key="py" value="6840" />
+          <entry key="py" value="7275" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="6871" />
+          <entry key="Python" value="7306" />
         </counts>
       </usages-collector>
     </session>
@@ -79,26 +82,30 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Excel/py_excel.py">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/YahooFinance/py_yahoo_finance.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="370">
-                  <caret line="24" selection-start-line="24" selection-end-line="24" />
+                <state relative-caret-position="420">
+                  <caret line="116" lean-forward="true" selection-start-line="116" selection-end-line="116" />
                   <folding>
-                    <element signature="e#0#19#0" expanded="true" />
+                    <element signature="e#244#559#0" />
+                    <element signature="e#617#1646#0" />
+                    <element signature="e#1406#1532#0" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Excel/Tests/test_py_excel.py">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/YahooFinance/Tests/test_py_yahoo_finance.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="391">
-                  <caret line="23" selection-start-line="23" selection-end-line="23" />
+                <state relative-caret-position="319">
+                  <caret line="62" selection-start-line="62" selection-end-line="62" />
                   <folding>
                     <element signature="e#0#15#0" expanded="true" />
-                    <marker date="1637433351010" expanded="true" signature="97:98" ph="..." />
+                    <element signature="e#111#445#0" />
+                    <element signature="e#490#805#0" />
+                    <element signature="e#858#1159#0" />
                   </folding>
                 </state>
               </provider>
@@ -108,31 +115,16 @@
       </split-first>
       <split-second>
         <leaf>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/YahooFinance/py_yahoo_finance.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-51">
-                  <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-                  <folding>
-                    <element signature="e#244#559#0" />
-                    <element signature="e#1406#1532#0" />
-                    <element signature="e#1689#2270#0" />
-                    <element signature="e#1689#1765#1" />
-                    <element signature="e#2321#2925#0" />
-                    <element signature="e#2321#2408#1" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/YahooFinance/Tests/test_py_yahoo_finance.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="85">
-                  <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="36" />
+                <state relative-caret-position="391">
+                  <caret line="60" column="51" selection-start-line="60" selection-start-column="51" selection-end-line="60" selection-end-column="51" />
                   <folding>
                     <element signature="e#0#15#0" expanded="true" />
+                    <element signature="e#111#445#0" />
                     <element signature="e#490#805#0" />
+                    <element signature="e#858#1159#0" />
                   </folding>
                 </state>
               </provider>
@@ -165,12 +157,12 @@
         <option value="$PROJECT_DIR$/Gmail/py_gmail.py" />
         <option value="$PROJECT_DIR$/Gmail/Tests/test_py_gmail.py" />
         <option value="$PROJECT_DIR$/YahooFinance/test.py" />
-        <option value="$PROJECT_DIR$/YahooFinance/Tests/test_py_yahoo_finance.py" />
-        <option value="$PROJECT_DIR$/YahooFinance/py_yahoo_finance.py" />
         <option value="$PROJECT_DIR$/Excel/Tests/tests_py_excel.py" />
         <option value="$PROJECT_DIR$/Strings/py_strings.py" />
         <option value="$PROJECT_DIR$/Excel/py_excel.py" />
         <option value="$PROJECT_DIR$/Excel/Tests/test_py_excel.py" />
+        <option value="$PROJECT_DIR$/YahooFinance/py_yahoo_finance.py" />
+        <option value="$PROJECT_DIR$/YahooFinance/Tests/test_py_yahoo_finance.py" />
       </list>
     </option>
   </component>
@@ -181,8 +173,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="337" />
-    <option name="y" value="-25" />
+    <option name="x" value="176" />
+    <option name="y" value="-9" />
     <option name="width" value="1551" />
     <option name="height" value="839" />
   </component>
@@ -205,12 +197,6 @@
               <item name="LIBRARIES" type="b2602c69:ProjectViewProjectNode" />
               <item name="LIBRARIES" type="462c0819:PsiDirectoryNode" />
               <item name="Excel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LIBRARIES" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LIBRARIES" type="462c0819:PsiDirectoryNode" />
-              <item name="Excel" type="462c0819:PsiDirectoryNode" />
-              <item name="Data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LIBRARIES" type="b2602c69:ProjectViewProjectNode" />
@@ -243,7 +229,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PROJECTS/FINANCIAL REPORTS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
@@ -265,7 +251,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for Excel.Tests.test_py_excel.TestWriteExcel">
+  <component name="RunManager" selected="Python tests.Unittests in test_py_yahoo_finance.py">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="LIBRARIES" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -280,28 +266,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Strings Library/py_strings.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="py_excel" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LIBRARIES" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Excel/py_excel.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -340,7 +304,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for YahooFinance.Tests.test_py_yahoo_finance.TestResearchGetData" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for YahooFinance.Tests.test_py_yahoo_finance.TestGetSummary" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="LIBRARIES" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -351,7 +315,22 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;YahooFinance.Tests.test_py_yahoo_finance.TestResearchGetData&quot;" />
+      <option name="_new_target" value="&quot;YahooFinance.Tests.test_py_yahoo_finance.TestGetSummary&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for YahooFinance.Tests.test_py_yahoo_finance.TestGetSummary.test_case_1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="LIBRARIES" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;YahooFinance.Tests.test_py_yahoo_finance.TestGetSummary.test_case_1&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -371,19 +350,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.py_excel" />
-      <item itemvalue="Python tests.Unittests in test_py_yahoo_finance.py" />
-      <item itemvalue="Python tests.Unittests for YahooFinance.Tests.test_py_yahoo_finance.TestResearchGetData" />
       <item itemvalue="Python tests.Unittests for Excel.Tests.test_py_excel.TestWriteExcel.test_case_1" />
       <item itemvalue="Python tests.Unittests for Excel.Tests.test_py_excel.TestWriteExcel" />
+      <item itemvalue="Python tests.Unittests for YahooFinance.Tests.test_py_yahoo_finance.TestGetSummary" />
+      <item itemvalue="Python tests.Unittests for YahooFinance.Tests.test_py_yahoo_finance.TestGetSummary.test_case_1" />
+      <item itemvalue="Python tests.Unittests in test_py_yahoo_finance.py" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests in test_py_yahoo_finance.py" />
+        <item itemvalue="Python tests.Unittests for YahooFinance.Tests.test_py_yahoo_finance.TestGetSummary" />
+        <item itemvalue="Python tests.Unittests for YahooFinance.Tests.test_py_yahoo_finance.TestGetSummary.test_case_1" />
         <item itemvalue="Python tests.Unittests for Excel.Tests.test_py_excel.TestWriteExcel" />
         <item itemvalue="Python tests.Unittests for Excel.Tests.test_py_excel.TestWriteExcel.test_case_1" />
-        <item itemvalue="Python.py_excel" />
-        <item itemvalue="Python tests.Unittests in test_py_yahoo_finance.py" />
-        <item itemvalue="Python tests.Unittests for YahooFinance.Tests.test_py_yahoo_finance.TestResearchGetData" />
       </list>
     </recent_temporary>
   </component>
@@ -401,35 +380,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_YahooFinance_Tests_test_py_yahoo_finance_TestGetCompetitors - 2021.11.14 at 18h 43m 41s.xml">
-      <configuration name="Unittests for YahooFinance.Tests.test_py_yahoo_finance.TestGetCompetitors" configurationId="tests" />
+    <history-entry file="Unittests_for_YahooFinance_Tests_test_py_yahoo_finance_TestGetSummary_test_case_1 - 2021.12.02 at 17h 58m 38s.xml">
+      <configuration name="Unittests for YahooFinance.Tests.test_py_yahoo_finance.TestGetSummary.test_case_1" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_YahooFinance_Tests_test_py_yahoo_finance_TestGetCompetitors - 2021.11.14 at 18h 44m 10s.xml">
-      <configuration name="Unittests for YahooFinance.Tests.test_py_yahoo_finance.TestGetCompetitors" configurationId="tests" />
+    <history-entry file="Unittests_for_YahooFinance_Tests_test_py_yahoo_finance_TestGetSummary_test_case_1 - 2021.12.02 at 18h 13m 13s.xml">
+      <configuration name="Unittests for YahooFinance.Tests.test_py_yahoo_finance.TestGetSummary.test_case_1" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_YahooFinance_Tests_test_py_yahoo_finance_TestResearchGetData - 2021.11.14 at 18h 46m 47s.xml">
-      <configuration name="Unittests for YahooFinance.Tests.test_py_yahoo_finance.TestResearchGetData" configurationId="tests" />
+    <history-entry file="Unittests_for_YahooFinance_Tests_test_py_yahoo_finance_TestGetSummary - 2021.12.02 at 18h 14m 17s.xml">
+      <configuration name="Unittests for YahooFinance.Tests.test_py_yahoo_finance.TestGetSummary" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_YahooFinance_Tests_test_py_yahoo_finance_TestResearchGetData - 2021.11.14 at 18h 46m 58s.xml">
-      <configuration name="Unittests for YahooFinance.Tests.test_py_yahoo_finance.TestResearchGetData" configurationId="tests" />
+    <history-entry file="Unittests_for_YahooFinance_Tests_test_py_yahoo_finance_TestGetSummary - 2021.12.02 at 18h 14m 30s.xml">
+      <configuration name="Unittests for YahooFinance.Tests.test_py_yahoo_finance.TestGetSummary" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_py_yahoo_finance_py - 2021.11.14 at 18h 47m 14s.xml">
+    <history-entry file="Unittests_for_YahooFinance_Tests_test_py_yahoo_finance_TestGetSummary - 2021.12.02 at 18h 14m 47s.xml">
+      <configuration name="Unittests for YahooFinance.Tests.test_py_yahoo_finance.TestGetSummary" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_YahooFinance_Tests_test_py_yahoo_finance_TestGetSummary - 2021.12.02 at 18h 15m 31s.xml">
+      <configuration name="Unittests for YahooFinance.Tests.test_py_yahoo_finance.TestGetSummary" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_YahooFinance_Tests_test_py_yahoo_finance_TestGetSummary - 2021.12.02 at 18h 21m 40s.xml">
+      <configuration name="Unittests for YahooFinance.Tests.test_py_yahoo_finance.TestGetSummary" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_YahooFinance_Tests_test_py_yahoo_finance_TestGetSummary - 2021.12.02 at 18h 22m 56s.xml">
+      <configuration name="Unittests for YahooFinance.Tests.test_py_yahoo_finance.TestGetSummary" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_YahooFinance_Tests_test_py_yahoo_finance_TestGetSummary - 2021.12.02 at 18h 22m 59s.xml">
+      <configuration name="Unittests for YahooFinance.Tests.test_py_yahoo_finance.TestGetSummary" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_py_yahoo_finance_py - 2021.12.02 at 18h 23m 43s.xml">
       <configuration name="Unittests in test_py_yahoo_finance.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_py_yahoo_finance_py - 2021.11.20 at 17h 47m 57s.xml">
-      <configuration name="Unittests in test_py_yahoo_finance.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_Excel_Tests_test_py_excel_TestWriteExcel_test_case_1 - 2021.11.20 at 18h 32m 56s.xml">
-      <configuration name="Unittests for Excel.Tests.test_py_excel.TestWriteExcel.test_case_1" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_Excel_Tests_test_py_excel_TestWriteExcel - 2021.11.20 at 18h 33m 38s.xml">
-      <configuration name="Unittests for Excel.Tests.test_py_excel.TestWriteExcel" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_Excel_Tests_test_py_excel_TestWriteExcel - 2021.11.20 at 18h 34m 00s.xml">
-      <configuration name="Unittests for Excel.Tests.test_py_excel.TestWriteExcel" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_Excel_Tests_test_py_excel_TestWriteExcel - 2021.11.20 at 18h 36m 39s.xml">
-      <configuration name="Unittests for Excel.Tests.test_py_excel.TestWriteExcel" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -444,13 +423,13 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49838188" visible="true" weight="0.21321961" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49838188" visible="true" weight="0.2196162" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50161815" side_tool="true" weight="0.19829424" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.49457702" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3991323" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
@@ -458,7 +437,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -546,39 +525,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/YahooFinance/py_yahoo_finance.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding>
-            <element signature="e#244#559#0" />
-            <element signature="e#1406#1532#0" />
-            <element signature="e#1689#2270#0" />
-            <element signature="e#1689#1765#1" />
-            <element signature="e#2321#2925#0" />
-            <element signature="e#2321#2408#1" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/YahooFinance/Tests/test_py_yahoo_finance.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <element signature="e#490#805#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Excel/py_excel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
+        <state relative-caret-position="391">
           <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -588,7 +538,34 @@
           <caret line="23" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <marker date="1637433351010" expanded="true" signature="97:98" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tst.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YahooFinance/py_yahoo_finance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="116" lean-forward="true" selection-start-line="116" selection-end-line="116" />
+          <folding>
+            <element signature="e#244#559#0" />
+            <element signature="e#617#1646#0" />
+            <element signature="e#1406#1532#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YahooFinance/Tests/test_py_yahoo_finance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="60" column="51" selection-start-line="60" selection-start-column="51" selection-end-line="60" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#111#445#0" />
+            <element signature="e#490#805#0" />
+            <element signature="e#858#1159#0" />
           </folding>
         </state>
       </provider>

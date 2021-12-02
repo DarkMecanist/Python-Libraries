@@ -48,5 +48,20 @@ class TestResearchGetData(unittest.TestCase):
         self.assertIsNotNone(research_data)
 
 
+class TestGetSummary(unittest.TestCase):
+    """get_summary unit tests"""
+
+    def setUp(self):
+        self.yfinance = YahooFinance(version="v11")
+
+    def test_case_1(self):
+        """Testing with AAPL"""
+
+        symbol = "AAPL"
+        summary = self.yfinance.get_summary(symbol)
+
+        self.assertIsNotNone(summary)
+
+
 if __name__ == "__main__":
     unittest.main()
