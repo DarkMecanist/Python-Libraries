@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e06d488e-308e-42e8-8fa1-f063c03bca56" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SQLLite/Tests/test_py_sql_lite.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQLLite/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQLLite/py_sql_lite.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/LIBRARIES.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LIBRARIES.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQLLite/py_sql_lite.py" beforeDir="false" afterPath="$PROJECT_DIR$/SQLLite/py_sql_lite.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -89,13 +84,13 @@
         <counts>
           <entry key="Python Console" value="31" />
           <entry key="dummy" value="1" />
-          <entry key="py" value="10847" />
+          <entry key="py" value="10865" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="10875" />
+          <entry key="Python" value="10893" />
           <entry key="SQL" value="3" />
         </counts>
       </usages-collector>
@@ -121,11 +116,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SQLLite/Tests/test_py_sql_lite.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="98" selection-start-line="98" selection-end-line="98" />
+            <state relative-caret-position="279">
+              <caret line="69" column="97" selection-start-line="69" selection-start-column="83" selection-end-line="69" selection-end-column="97" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -133,11 +128,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SQLLite/py_sql_lite.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
+            <state relative-caret-position="704">
+              <caret line="62" column="32" selection-start-line="62" selection-start-column="32" selection-end-line="62" selection-end-column="32" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -219,17 +214,6 @@
               <item name="LIBRARIES" type="b2602c69:ProjectViewProjectNode" />
               <item name="LIBRARIES" type="462c0819:PsiDirectoryNode" />
               <item name="SQLLite" type="462c0819:PsiDirectoryNode" />
-              <item name="Tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LIBRARIES" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LIBRARIES" type="462c0819:PsiDirectoryNode" />
-              <item name="YahooFinance" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LIBRARIES" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LIBRARIES" type="462c0819:PsiDirectoryNode" />
-              <item name="YahooFinance" type="462c0819:PsiDirectoryNode" />
               <item name="Tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -436,7 +420,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49838188" visible="true" weight="0.16471216" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49838188" visible="true" weight="0.16684435" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50161815" side_tool="true" weight="0.19829424" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -626,17 +610,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
           <caret line="23" column="8" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
-          <folding>
-            <element signature="e#1406#1532#0" />
-            <element signature="e#1689#2270#0" />
-            <element signature="e#1689#1765#1" />
-            <element signature="e#2321#2925#0" />
-            <element signature="e#2321#2408#1" />
-            <element signature="e#2970#4228#0" />
-            <element signature="e#2970#3047#1" />
-            <element signature="e#3257#3979#0" />
-            <element signature="e#3293#3978#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -705,8 +678,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SQLLite/py_sql_lite.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
+        <state relative-caret-position="704">
+          <caret line="62" column="32" selection-start-line="62" selection-start-column="32" selection-end-line="62" selection-end-column="32" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
@@ -715,8 +688,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SQLLite/Tests/test_py_sql_lite.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="98" selection-start-line="98" selection-end-line="98" />
+        <state relative-caret-position="279">
+          <caret line="69" column="97" selection-start-line="69" selection-start-column="83" selection-end-line="69" selection-end-column="97" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>

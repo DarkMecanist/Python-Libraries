@@ -60,6 +60,8 @@ class SQLLite:
         else:
             result = cursor.execute(query, parameters).fetchall()
 
+        self.connection.commit()
+
         if close_connection:
             self.connection.close()
 
