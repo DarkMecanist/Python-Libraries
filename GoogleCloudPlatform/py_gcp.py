@@ -1,9 +1,8 @@
 import os
-import oauth2client
-from apiclient import discovery
-import oauth2client
-from oauth2client import client
-from oauth2client import tools
+import pickle
+from google_auth_oauthlib.flow import InstalledAppFlow
+from googleapiclient.discovery import build
+from google.auth.transport.requests import Request
 
 
 class GoogleCloudPlatform:
@@ -15,39 +14,122 @@ class GoogleCloudPlatform:
 
     """
 
-    def __init__(self, token_path, credentials_path, api):
-        scopes = {
-            "GoogleCalendar": ["https://www.googleapis.com/auth/calendar"]
-        }
+    def __init__(self, api_name, api_version, scopes, client_secret_file):
+        credentials = None
+        pickle_file = f'token_{api_name}_{api_version}.pickle'
+        temp_dir = os.path.join(os.getcwd(), ".temp")
 
-        # The file token.json stores the user's access and refresh tokens, and is
-        # created automatically when the authorization flow completes for the first
-        # time.
-        temp_dir = "GoogleCloudPLatform/.temp"
         if not os.path.exists(temp_dir):
-            os.makedirs(temp_dir)
+            os.mkdir(temp_dir)
 
-        store = oauth2client.file.Storage(credentials_path)
-        credentials = store.get()
+        if os.path.exists(os.path.join(temp_dir, pickle_file)):
+            with open(os.path.join(temp_dir, pickle_file), "rb") as token:
+                credentials = pickle.load(token)
 
-        if not credentials or credentials.invalid:
-            flow = client.flow_from_clientsecrets("credentials.json", scopes[api])
+        if not credentials or not credentials.valid:
+            if credentials and credentials.expired and credentials.refresh_token:
+                credentials.refresh(Request())
+            else:
+                if os.path.exists(os.path.join(temp_dir, client_secret_file)):
+                    flow = InstalledAppFlow.from_client_secrets_file(os.path.join(temp_dir, client_secret_file), scopes)
+                    credentials = flow.run_local_server()
+                else:
+                    raise Exception(f"No file {client_secret_file} in dir {temp_dir}")
 
+            with open(os.path.join(temp_dir, pickle_file), "wb") as token:
+                pickle.dump(credentials, token)
 
+        try:
+            self.service = build(api_name, api_version, credentials=credentials)
+            print(f"{api_name}, {api_version} service created successfully.")
+        except Exception as e:
+            os.remove(os.path.join(temp_dir, pickle_file))
+            raise e
 
 
 class GoogleCalendar(GoogleCloudPlatform):
+    """
+    Google Calendar API
 
-    def __init__(self, token_path, credentials_path, scopes, version):
-        super(GoogleCalendar, self).__init__(token_path, credentials_path, scopes)
-        # self.service = build('calendar', version, credentials=self.creds)
+    Available Scopes:
+        "https://www.googleapis.com/auth/calendar"
+    """
 
-    def insert_calendar_event(self):
-        pass
+    def __init__(self, api_version):
+        api_name = "calendar"
+        scopes = ["https://www.googleapis.com/auth/calendar"]
+        client_secret_file = "client_secret.json"
+        super(GoogleCalendar, self).__init__(api_name, api_version, scopes, client_secret_file)
 
+    def insert_event(self, summary, description, location, start_datetime, end_datetime,
+                              attendee_emails, start_timezone="America/Los_Angeles", end_timezone="America/Los_Angeles",
+                              recurrence_rules=None, reminders=None):
+        """
+        :param summary: [String]
+        :param description: [String]
+        :param location: [String]
+        :param start_datetime: [DateTime]
+        :param start_timezone: [String]
+        :param end_datetime: [Datetime]
+        :param end_timezone: [String]
+        :param recurrence_rules: [List: String]
+        :param attendee_emails: [List: String]
+        :param reminders: [List: Dictionary]
+        example reminders: [{"method": "email", "minutes": 30}, {"method": "popup", "minutes": 10}]
+        :return: Dictionary
+        """
 
-token_path = "GoogleCloudPlatform/.temp/token.json"
-credentials_path = "GoogleCloudPlatform/.temp/credentials.json"
-api = "GoogleCalendar"
-version = "v3"
-calendar = GoogleCalendar(token_path, credentials_path, api, version)
+        if not summary:
+            raise Exception("Summary not provided.")
+
+        if not description:
+            raise Exception("Description not provided.")
+
+        if not location:
+            raise Exception("Location not provided.")
+
+        if not start_datetime:
+            raise Exception("Start DateTime nor provided.")
+
+        if not end_datetime:
+            raise Exception("End DateTime not provided.")
+
+        if not attendee_emails:
+            raise Exception("Attendee Emails not provided.")
+
+        if not recurrence_rules:
+            recurrence_rules = ["RRULE:FREQ=DAILY;COUNT=1"]
+
+        if not reminders:
+            reminders = [
+                {"method": "email", "minutes": 24 * 60},
+                {"method": "popup", "minutes": 10}
+            ]
+
+        event_info = {
+            "summary": summary,
+            "description": description,
+            "start": {
+                "dateTime": f"{start_datetime.year}-{start_datetime.month}-{start_datetime.day}T"
+                            f"{start_datetime.hour-1}:{start_datetime.minute}:00-00:00",
+                "timeZone": start_timezone,
+            },
+            "end": {
+                "dateTime": f"{end_datetime.year}-{end_datetime.month}-{end_datetime.day}T"
+                            f"{end_datetime.hour-1}:{end_datetime.minute}:00-00:00",
+                "timeZone": end_timezone,
+            },
+            "recurrence": recurrence_rules,
+            "attendees": [{"email": email} for email in attendee_emails],
+            "reminders": {
+                "useDefault": False,
+                "overrides": reminders
+            }
+        }
+
+        event = self.service.events().insert(calendarId="primary", body=event_info).execute()
+
+        print(f"Event created successfully ({event.get('htmlLink')})")
+
+        return event
+
