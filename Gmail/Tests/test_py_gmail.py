@@ -22,6 +22,20 @@ class TestsSendEmail(unittest.TestCase):
 
         self.gmail.send_email(emails_to, subject, body)
 
+    def test_case_2(self):
+        """Testing with multiple valid emails and attachments"""
+
+        emails_to = ["jmoutinho94@gmail.com", "joao.moutinho@farfetch.com"]
+        subject = "Email sent from python"
+        body = """Python Gmail Library
+        test_case_2
+        """
+        attachments = ["Gmail/Data/test.txt"]
+
+        print(os.getcwd())
+
+        self.gmail.send_email(emails_to, subject, body, attachments)
+
 
 if __name__ == "__main__":
     unittest.main()

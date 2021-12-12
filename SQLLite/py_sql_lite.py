@@ -47,7 +47,7 @@ class SQLLite:
         :param query: [String]
         :param parameters: [Dictionary {String: Object}]
         :param close_connection: [Boolean]
-        :return: result
+        :return: [List]
         """
 
         if not query:
